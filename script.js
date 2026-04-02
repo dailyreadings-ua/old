@@ -3951,7 +3951,7 @@ const mainMenu = {
                     const lessonContMainMenu = document.createElement('div');
                     lessonContMainMenu.classList.add('lessonContMainMenu');
                     const lesson = document.createElement('img');
-                    lesson.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/person-chalkboard-solid.svg');
+                    lesson.setAttribute('src', 'person-chalkboard-solid.svg');
                     lesson.classList.add('svgBtn');
                     lessonContMainMenu.appendChild(lesson);
                     
@@ -4075,7 +4075,7 @@ const mainMenu = {
         const chevronCont = document.createElement('div');
         chevronCont.classList.add('chevronCont');
         const chevron = document.createElement('img');
-        chevron.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/circle-chevron-down.svg');
+        chevron.setAttribute('src', 'circle-chevron-down.svg');
         chevron.classList.add('svg');
         chevronCont.appendChild(chevron);
         topNameCont.appendChild(nameCont);
@@ -4087,7 +4087,7 @@ const mainMenu = {
         const settingsCont = document.createElement('div');
         settingsCont.classList.add('settingsCont');
         const gear = document.createElement('img');
-        gear.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/gear-solid.svg');
+        gear.setAttribute('src', 'gear-solid.svg');
         gear.classList.add('svg');
         settingsCont.appendChild(gear);
         bottomCont.appendChild(settingsCont);
@@ -4096,7 +4096,7 @@ const mainMenu = {
         const trainCard = document.createElement('div');
         trainCard.classList.add('trainCard');
         const dumbbell = document.createElement('img');
-        dumbbell.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/dumbbell-solid.svg');
+        dumbbell.setAttribute('src', 'dumbbell-solid.svg');
         dumbbell.classList.add('svg');
         dumbbell.style.width = '30vw';
         dumbbell.style.height = '30vw';
@@ -4110,7 +4110,7 @@ const mainMenu = {
         studyCard.classList.add('studyCard');
         const studyText = document.createElement('p');
         const brain = document.createElement('img');
-        brain.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/brain-solid.svg');
+        brain.setAttribute('src', 'brain-solid.svg');
         brain.classList.add('svg');        
         brain.style.width = '30vw';
         brain.style.height = '30vw';
@@ -4124,7 +4124,7 @@ const mainMenu = {
         const checkedCont = document.createElement('div');
         checkedCont.classList.add('checkedCont');
         const checkmark = document.createElement('img');
-        checkmark.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/circle-check-solid.svg');
+        checkmark.setAttribute('src', 'circle-check-solid.svg');
         checkmark.classList.add('svg');
         checkedCont.appendChild(checkmark);
         
@@ -4221,11 +4221,11 @@ const mainMenu = {
         const photo = document.createElement('img');
         photo.classList.add('avatar');
         if (this.user.getName() == 'midea13') {
-            photo.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/thumbnails%2Fmidea13.jpg')
+            photo.setAttribute('src', 'midea13.jpg')
         } else if (this.user.getName() == 'Yuriy') {
-            photo.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/thumbnails%2Fyuriy.jpg')
+            photo.setAttribute('src', 'yuriy.jpg')
         } else {
-            photo.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/thumbnails%2Funknown2.jpg')
+            photo.setAttribute('src', 'unknown2.jpg')
         }
         profileCont.appendChild(photo);
         topNameCont.appendChild(profileCont);
@@ -4254,7 +4254,7 @@ const mainMenu = {
                 if (backCont) {backCont.style.setProperty('bottom', '')};
 
                 setTimeout(function(){
-                    chevron.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/circle-chevron-down.svg');
+                    chevron.setAttribute('src', 'circle-chevron-down.svg');
                     document.getElementsByClassName('chaptersList')[0].scrollTop = 0;
                 }, 500)
             } else {
@@ -4275,7 +4275,7 @@ const mainMenu = {
                 if (backCont) {backCont.style.setProperty('bottom', '-40px')};
 
                 setTimeout(function(){
-                    chevron.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/circle-chevron-up.svg');
+                    chevron.setAttribute('src', 'circle-chevron-up.svg');
                 }, 500)
             }
         });
@@ -4342,7 +4342,7 @@ const mainMenu = {
         const backCont = document.createElement('div');
         backCont.classList.add('backCont');
         const chevron = document.createElement('img');
-        chevron.setAttribute('src', 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/circle-chevron-left.svg');
+        chevron.setAttribute('src', 'circle-chevron-left.svg');
         chevron.classList.add('svg');
         backCont.appendChild(chevron);
         bottomCont.appendChild(backCont);
@@ -6606,7 +6606,7 @@ const lessons = {
                 svgCont.classList.add('symbContSection');
                 const svg = document.createElement('img');
 
-                let url = 'https://cdn.glitch.global/cc8f623d-c674-4323-a733-cbbc688508ee/';
+                let url = '';
                 if (index == 0) {
                     url += 'building-columns-solid.svg';
                 } else if (index == 1) {
